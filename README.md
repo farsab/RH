@@ -43,7 +43,7 @@ Content-based image retrieval using color difference histogram,
 Pattern Recognition,
 Volume 46, Issue 1,
 https://doi.org/10.1016/j.patcog.2012.06.001.
-- The color feature was based on https://github.com/AdityaShaha/CBIR-Using-CDH. I did not change the code. The only change that is made is to normalize the feature vector to avoid to have the feature set dominated the whole feature vector. Without the normalization, the feature set acquired from Gabor would be less effective due to be smaller than that of color features.
+- The color feature was based on https://github.com/AdityaShaha/CBIR-Using-CDH. I did not change the code. The only change that is made is to normalize the feature vector to avoid to one of the feature groups diminish the influence of the other group. Without the normalization, the feature set acquired from Gabor would be less effective due to be smaller values than that of color features.
 
 For comparison purposes, codes available in below respositories are used:
 - https://github.com/swuxyj/DeepHash-pytorch
