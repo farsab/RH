@@ -48,3 +48,4 @@ For comparison purposes, codes available in below respositories are used:
 - https://github.com/kevinlin311tw/cvpr16-deepbit
 - https://github.com/ssppp/GreedyHash
 
+Thanks the authors to share their codes publicly.
