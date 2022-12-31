@@ -21,7 +21,7 @@ To run the code, you need three datasets: Cifar 10, NUS-WIDE and ImageNet. All t
 
 Once the features for training, test and query(ies) are calculated, you would opt in to save them in addition to save weight matrix.
 
-If you want to have the features and weight matrix saved, disable "LOAD" variable by "LOAD=False".Once you have saved them, you should set "LOAD" by "LOAD=True". In this case, you do not have to re-run the feature extraction and weight calculation. However, keep in mind that the the results you would not get exactly the same as resutls shown in the paper because of nature of randomness as during the training the training set is shuffled. This different is negligble.
+If you want to have the features and weight matrix saved, disable "LOAD" variable by "LOAD=False".Once you have saved them, you should set "LOAD" by "LOAD=True". In this case, you do not have to re-run the feature extraction and weight calculation. However, keep in mind that  the results you get would not be exactly the same as resutls shown in the paper because of nature of randomness as during the training the training set is shuffled. This different is negligble.
 ## Requirements
 - Python 3.8
 - Keras 2.9.0
